@@ -1,0 +1,34 @@
+## --- Visual Studio & .NET ---
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.suo
+*.userprefs
+appsettings.Production.json
+
+## --- Node & Frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## --- Environment & Secrets ---
+.env
+.env*.local
+
+## --- OS & Editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
